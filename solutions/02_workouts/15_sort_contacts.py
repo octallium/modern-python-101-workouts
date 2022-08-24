@@ -4,10 +4,7 @@ Sort Contacts
 
 1. Create a class `Contact` with two instance variables - `name` as string, `age` as int.
 2. Create four instances of `Contact` and add them to a list `l`.
-3. Create a function `sort` which takes 2 arguments and returns a sorted list. First argument
-   list `l` of Contacts and second argument boolean value to denote if the list is to be sorted
-   in reverse order or not.
-4. Sort list `l` with age and print the list in ascending and descending order
+3. Sort list `l` with age and print the list in ascending and descending order
 
 Input Format:
 =============

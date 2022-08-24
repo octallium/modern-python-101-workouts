@@ -3,7 +3,6 @@ Zortan
 ------
 
 Given an input of string `s`, reverse the first two and last two characters.
-Minimum input length should be 4, otherwise throw a Value Error.
 
 Input Format:
 =============
@@ -30,3 +29,7 @@ Sample Output 0:
 
 rcystla
 """
+
+
+def zortan(word):
+    pass

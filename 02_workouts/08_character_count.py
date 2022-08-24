@@ -27,3 +27,7 @@ Sample Output 0:
 
 {'t': 2, 'h': 2, 'e': 2, 's': 1, 'u': 1, 'n': 3, 'a': 1, 'd': 1, 'm': 1, 'o': 2}
 """
+
+
+def count_characters(sentence):
+    pass

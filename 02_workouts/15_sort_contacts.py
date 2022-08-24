@@ -4,10 +4,7 @@ Sort Contacts
 
 1. Create a class `Contact` with two instance variables - `name` as string, `age` as int.
 2. Create four instances of `Contact` and add them to a list `l`.
-3. Create a function `sort` which takes 2 arguments and returns a sorted list. First argument
-   list `l` of Contacts and second argument boolean value to denote if the list is to be sorted
-   in reverse order or not.
-4. Sort list `l` with age and print the list in ascending and descending order
+3. Sort list `l` with age and print the list in ascending and descending order
 
 Input Format:
 =============
@@ -35,8 +32,3 @@ Sample Output 0:
 [Kiro 4, Cece 7, Niko 8, Louis 13]
 [Louis 13, Niko 8, Cece 7, Kiro 4]
 """
-
-
-def sort(contacts, reverse):
-    # TODO: Complete this
-    pass

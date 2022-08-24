@@ -29,3 +29,7 @@ Sample Output 0:
 
 4231
 """
+
+
+def reverse(num):
+    pass

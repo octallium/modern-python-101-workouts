@@ -26,6 +26,5 @@ okihC
 """
 
 
-def mirror(to_mirror: str) -> str:
-    # TODO: Complete this
+def mirror(to_mirror):
     pass

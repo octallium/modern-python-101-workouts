@@ -32,3 +32,7 @@ Sample Output 0:
 
 [5, 7, 9, 11, 13]
 """
+
+
+def add_list(nums_1, nums_2):
+    pass

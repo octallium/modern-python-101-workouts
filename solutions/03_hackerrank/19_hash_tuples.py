@@ -22,18 +22,17 @@ Sample Input 0:
 ==============
 
 2
-1 2
+1 5
 
 Sample Output 0:
 ================
 
-3713081631934410656
+173794974761290439
 """
 
 nums_str = input().strip().split()
 
-# nums = [int(x) for x in values_str]
-nums = map(int, nums_str)
-hashed_value = hash(tuple(nums))
+nums = tuple(map(int, nums_str))
+hashed_value = hash(nums)
 
 print(hashed_value)

@@ -44,8 +44,6 @@ print(v1 <= v2)
 print(v1 >= v2)
 print("4" in v1)
 
-for num in v1:
-    print(num, end=" ")
 
 Sample Output 0:
 ================

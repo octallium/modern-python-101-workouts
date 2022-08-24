@@ -27,6 +27,5 @@ Octobotly
 """
 
 
-def wordly(word: str) -> str:
-    # TODO: Complete this
+def wordly(word):
     pass

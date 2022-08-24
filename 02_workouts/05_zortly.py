@@ -26,4 +26,6 @@ Sample Output 0:
 Zctalliumly
 """
 
-# To use a function or not is your choice
+
+def zortly(word):
+    pass

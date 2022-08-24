@@ -26,6 +26,5 @@ Sample Output 0:
 """
 
 
-def count_words(sentence: str) -> int:
-    # TODO: Complete This
+def count_words(sentence):
     pass

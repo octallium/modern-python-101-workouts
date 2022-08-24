@@ -16,3 +16,7 @@ Sample Output:
 7
 
 """
+
+
+def add_nums(num1, num2):
+    pass

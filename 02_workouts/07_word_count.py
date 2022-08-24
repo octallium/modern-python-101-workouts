@@ -25,3 +25,7 @@ Sample Output 0:
 
 {'the': 2, 'sun': 1, 'and': 1, 'moon': 1}
 """
+
+
+def word_count(sentence):
+    pass

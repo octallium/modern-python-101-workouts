@@ -18,7 +18,7 @@ Print the fahrenheit value
 Constraints:
 ============
 
--273.15 <= s
+-273.15 <= c
 
 Sample Input 0:
 ==============
@@ -32,6 +32,5 @@ Sample Output 0:
 """
 
 
-def to_fahrenheit(c: float) -> float:
-    # TODO: Complete this
+def to_fahrenheit(c):
     pass

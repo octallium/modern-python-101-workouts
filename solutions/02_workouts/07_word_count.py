@@ -32,7 +32,7 @@ Sample Output 0:
 def word_count(sentence: str) -> dict[str, int]:
     """Count number of unique words"""
 
-    words = sentence.lower().split()
+    words: list[str] = sentence.lower().split()
     count: dict[str, int] = {}
     for word in words:
         if word in count:

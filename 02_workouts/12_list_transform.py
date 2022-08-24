@@ -47,12 +47,9 @@ Sample Output 0:
 
 
 def transform(nums_1, nums_2, func):
-    # TODO: Complete this
     pass
 
 
 # List given as sample, feel free to use your lists
 n = [1, 2, 3, 4, 5]
 m = [4, 5, 6, 7, 8]
-
-# print(transform(n, m, add)) -> [5, 7, 9, 11, 13]

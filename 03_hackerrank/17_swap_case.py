@@ -1,3 +1,2 @@
-def swap_case(my_string: str) -> str:
-    # Complete this
+def swap_case(my_string):
     pass

@@ -25,8 +25,6 @@ Sample Output 0:
 okihC
 """
 
-# Solution 1
-
 
 def mirror(to_mirror: str) -> str:
     values = list(to_mirror)

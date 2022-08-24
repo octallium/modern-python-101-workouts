@@ -33,12 +33,11 @@ Sample Output 0:
 
 def reverse(num: int) -> int:
     """Reverse digits of num"""
-    to_reverse = num
     reversed_num = 0
-    while to_reverse != 0:
-        digit = to_reverse % 10
+    while num != 0:
+        digit = num % 10
         reversed_num = reversed_num * 10 + digit
-        to_reverse //= 10
+        num //= 10
     return reversed_num
 
 

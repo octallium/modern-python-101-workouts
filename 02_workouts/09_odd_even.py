@@ -24,3 +24,7 @@ Sample Output 0:
 
 4 is even
 """
+
+
+def odd_or_even(num):
+    pass

@@ -44,9 +44,6 @@ print(v1 <= v2)
 print(v1 >= v2)
 print("4" in v1)
 
-for num in v1:
-    print(num, end=" ")
-
 Sample Output 0:
 ================
 
@@ -65,17 +62,14 @@ False
 True
 False
 False
--3 4 7
 """
 
 from __future__ import annotations
-from typing import Any, Generator
 
 
 class Vector:
     def __init__(self, *args: int | float) -> None:
         self.args: tuple[int | float, ...] = args
-        self._idx = 0
 
     def __str__(self) -> str:
         return f"Vector{self.args}"
@@ -87,8 +81,6 @@ class Vector:
     def __bool__(self) -> bool:
         """Can use `if Vector` syntax"""
         if not self.args:
-            return False
-        if self.args[0] == 0:
             return False
         return True
 
@@ -147,23 +139,6 @@ class Vector:
         """Enables the use of `in` syntax"""
         return item in self.args
 
-    def __iter__(self) -> Vector:
-        """Makes `Vector` iterable"""
-        return self
-
-    def __next__(self) -> int | float:
-        """Returns the next element"""
-        if self._idx >= len(self.args):
-            raise StopIteration
-
-        current = self.args[self._idx]
-        self._idx += 1
-        return current
-
-    # def __iter__(self) -> Generator[int | float, Any, Any]:
-    #     for el in self.args:
-    #         yield el
-
 
 v1 = Vector(-3, 4, 7)
 v2 = Vector(5, 6, 7)
@@ -183,6 +158,3 @@ print(v1 > v2)
 print(v1 <= v2)
 print(v1 >= v2)
 print("4" in v1)
-
-for num in v1:
-    print(num, end=" ")

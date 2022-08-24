@@ -35,7 +35,6 @@ Sample Output 0:
 
 
 def zipper(nums_1, nums_2):
-    # TODO: Complete this
     pass
 
 
